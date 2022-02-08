@@ -1,0 +1,19 @@
+@import url("./var.css");
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.2s;
+}
+:root {
+    font-size: 16px;
+}
+body {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header content cta-link";
+}
